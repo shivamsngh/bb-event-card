@@ -27,33 +27,41 @@ declare global {
 declare global {
 
   namespace StencilComponents {
-    interface MyComponent {
-      'first': string;
-      'last': string;
+    interface BbEventCard {
+      'bodystyle': string;
+      'bodytext': string;
+      'date': string;
+      'headerstyle': string;
+      'headertext': string;
+      'link': string;
     }
   }
 
-  interface HTMLMyComponentElement extends StencilComponents.MyComponent, HTMLStencilElement {}
+  interface HTMLBbEventCardElement extends StencilComponents.BbEventCard, HTMLStencilElement {}
 
-  var HTMLMyComponentElement: {
-    prototype: HTMLMyComponentElement;
-    new (): HTMLMyComponentElement;
+  var HTMLBbEventCardElement: {
+    prototype: HTMLBbEventCardElement;
+    new (): HTMLBbEventCardElement;
   };
   interface HTMLElementTagNameMap {
-    'my-component': HTMLMyComponentElement;
+    'bb-event-card': HTMLBbEventCardElement;
   }
   interface ElementTagNameMap {
-    'my-component': HTMLMyComponentElement;
+    'bb-event-card': HTMLBbEventCardElement;
   }
   namespace JSX {
     interface IntrinsicElements {
-      'my-component': JSXElements.MyComponentAttributes;
+      'bb-event-card': JSXElements.BbEventCardAttributes;
     }
   }
   namespace JSXElements {
-    export interface MyComponentAttributes extends HTMLAttributes {
-      'first'?: string;
-      'last'?: string;
+    export interface BbEventCardAttributes extends HTMLAttributes {
+      'bodystyle'?: string;
+      'bodytext'?: string;
+      'date'?: string;
+      'headerstyle'?: string;
+      'headertext'?: string;
+      'link'?: string;
     }
   }
 }

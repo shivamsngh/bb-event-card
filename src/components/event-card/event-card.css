@@ -1,0 +1,60 @@
+
+
+blockquote, body, dd, dl, dt, fieldset, figure, h1, h2, h3, h4, h5, h6, hr, html, iframe, legend, li, ol, p, pre, textarea, ul {
+    margin: 0;
+    padding: 0;
+}
+hr{
+    background-color: #f5f5f5;
+    border: none;
+    display: block;
+    height: 2px;
+    margin: 1.5rem 0;
+}
+.min-margin{
+    margin:10px;
+}
+.message{
+    background-color: #fafafa;
+    border-radius: 4px;
+    font-size: 1rem;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.message-header{
+    align-items: center;
+    background-color: #363636;
+    border-radius: 4px 4px 0 0;
+    color: #f5f5f5;
+    display: flex;
+    font-weight: 700;
+    justify-content: space-between;
+    line-height: 1.25;
+    padding: .75em 1em;
+    position: relative
+}
+
+.message-body{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-radius: 4px;
+    border-width: 0;
+    border-style: solid;
+    padding: 1.25em 1.5em;
+    border-color: #363636;
+    color: #2a2a2a;
+}
+
+.is-pulled-right{
+    float: right;
+}
+
+.is-pulled-left{
+    float: left;
+}
+
+.is-invisible{
+    visibility: hidden;
+}
+

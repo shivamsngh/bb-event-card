@@ -1,18 +1,18 @@
 import { TestWindow } from '@stencil/core/testing';
-import { MyComponent } from './my-component';
+import { EventCard } from './event-card';
 
 describe('my-component', () => {
   it('should build', () => {
-    expect(new MyComponent()).toBeTruthy();
+    expect(new EventCard()).toBeTruthy();
   });
 
   describe('rendering', () => {
-    let element: HTMLMyComponentElement;
+    let element: HTMLBbEventCardElement;
     let testWindow: TestWindow;
     beforeEach(async () => {
       testWindow = new TestWindow();
       element = await testWindow.load({
-        components: [MyComponent],
+        components: [EventCard],
         html: '<my-component></my-component>'
       });
     });
