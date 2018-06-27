@@ -1,0 +1,1 @@
+// bbeccomponent: CommonJS Main

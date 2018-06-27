@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "tag": "bb-event-card",
+      "dependencies": [],
+      "componentClass": "EventCard",
+      "componentPath": "components/event-card/event-card.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/event-card/event-card.css"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "bodystyle",
+          "type": "String",
+          "attr": "bodystyle"
+        },
+        {
+          "name": "bodytext",
+          "type": "String",
+          "attr": "bodytext"
+        },
+        {
+          "name": "date",
+          "type": "String",
+          "attr": "date"
+        },
+        {
+          "name": "headerstyle",
+          "type": "String",
+          "attr": "headerstyle"
+        },
+        {
+          "name": "headertext",
+          "type": "String",
+          "attr": "headertext"
+        },
+        {
+          "name": "link",
+          "type": "String",
+          "attr": "link"
+        }
+      ],
+      "shadow": true
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.9.1",
+    "typescriptVersion": "2.8.3"
+  },
+  "bundles": []
+}
