@@ -1,0 +1,22 @@
+{
+  "name": "bb-event-card",
+  "description": "Generic Event card.",
+  "main": "www/index.html",
+  "authors": [
+    "Shivam Singh"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "event",
+    "cards",
+    "cards"
+  ],
+  "homepage": "https://github.com/shivamsngh/bb-event-card",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -4,6 +4,26 @@
 
 This is a web component which generate a beautiful event card. Demo available at [my website](https://shivamsngh.github.io)
 
+# Demo
+
+
+
+<!--
+```
+<custom-element-demo>
+  <template>
+    <link rel="import" href="index.html">
+    <bb-event-card></bb-event-card>
+  </template>
+</custom-element-demo>
+```
+-->
+
+```html
+ <bb-event-card headertext="I am header" bodytext="Don't call me a framework' JS" date="23 June 2017" link="https://google.com">
+  </bb-event-card>
+```
+
 ## Getting Started
 
 You can clone this repo to a new directory:

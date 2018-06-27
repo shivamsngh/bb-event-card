@@ -1,9 +1,9 @@
 {
   "name": "bb-event-card",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generic Event card.",
-  "module": "dist/esm/index.js",
-  "main": "dist/index.js",
+  "module": "dist/esm/bbeccomponent.js",
+  "main": "dist/bbeccomponent.js",
   "types": "dist/types/components.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "files": [
